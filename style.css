@@ -39,7 +39,8 @@ input {
   text-align: right;
   font-size: 80px;
   padding: 0;
-  color: #192965;
+  color: #7fcd91;
+  outline: none;
 }
 
 .button-row-1 {
@@ -61,9 +62,17 @@ button {
   background-color: #4d4646;
   color: #7fcd91;
   font-size: 36px;
+  outline: none;
 }
 
-.button-row-2 {
+button:active {
+  background-color: #7fcd91;
+  color: #f5eaea;
+}
+
+.button-row-2,
+.button-row-4,
+.button-row-5 {
   width: 100%;
   height: 15.8%;
   border-top: 1px solid #5b5656;

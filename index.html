@@ -15,39 +15,38 @@
   <body>
     <h1>Calculator</h1>
     <div class="container">
-      <div class="input"><input type="text" /></div>
+      <div class="input"><input type="text" class="calculator-screen" /></div>
       <div class="button-row-1">
-        <button class="btn-rw-1">AC</button>
+        <button class="btn-rw-1 all-clear function">AC</button>
         <button class="btn-rw-1">C</button>
-        <button class="btn-rw-1">%</button>
+        <button class="btn-rw-1 operator" value="%">%</button>
         <button class="btn-rw-1">Back</button>
       </div>
       <div class="button-row-2">
-        <button class="btn-rw-2">7</button>
-        <button class="btn-rw-2">8</button>
-        <button class="btn-rw-2">9</button>
-        <button class="btn-rw-2">x</button>
-        <button class="btn-rw-2">-</button>
+        <button class="btn-rw-2" value="7">7</button>
+        <button class="btn-rw-2" value="8">8</button>
+        <button class="btn-rw-2" value="9">9</button>
+        <button class="btn-rw-2 operator" value="*">&times;</button>
+        <button class="btn-rw-2 operator" value="-">-</button>
       </div>
-      <div class="button-row-2">
-        <button class="btn-rw-2">6</button>
-        <button class="btn-rw-2">5</button>
-        <button class="btn-rw-2">4</button>
-        <button class="btn-rw-2">/</button>
-        <button class="btn-rw-2">x^</button>
+      <div class="button-row-4">
+        <button class="btn-rw-2" value="6">6</button>
+        <button class="btn-rw-2" value="5">5</button>
+        <button class="btn-rw-2" value="4">4</button>
+        <button class="btn-rw-2 operator" value="/">&divide;</button>
+        <button class="btn-rw-2 operator">x^</button>
       </div>
-      <div class="button-row-2">
-        <button class="btn-rw-2">3</button>
-        <button class="btn-rw-2">2</button>
-        <button class="btn-rw-2">1</button>
-        <button class="btn-rw-2">+</button>
-        <button class="btn-rw-2">x!</button>
+      <div class="button-row-5">
+        <button class="btn-rw-2" value="3">3</button>
+        <button class="btn-rw-2" value="2">2</button>
+        <button class="btn-rw-2" value="1">1</button>
+        <button class="btn-rw-2 operator" value="+">+</button>
+        <button class="btn-rw-2 operator">x!</button>
       </div>
       <div class="button-row-3">
-        <button class="btn-zero">0</button>
-
-        <button class="btn-dec">.</button>
-        <button class="btn-equal">=</button>
+        <button class="btn-zero" value="0">0</button>
+        <button class="btn-dec decimal function" value=".">.</button>
+        <button class="btn-equal equal-sign operator">=</button>
       </div>
     </div>
 
